@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A polished Markdown-powered blog for GitHub Pages."
+    />
+    <title>Lumen Notes</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#/">
+        <span class="brand-mark" aria-hidden="true">LN</span>
+        <span>
+          <strong>Lumen Notes</strong>
+          <small>Essays, field notes, and bright ideas</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#/">Home</a>
+        <a href="#/archive">Archive</a>
+        <a href="#/about">About</a>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1800&q=82"
+          alt="A writing desk with notebooks, coffee, and a laptop"
+        />
+        <div class="hero-overlay">
+          <p class="eyebrow">Markdown-powered journal</p>
+          <h1 id="hero-title">Ideas worth lingering over.</h1>
+          <p>
+            Publish quiet drafts, sharp essays, travel notes, research logs, or
+            anything that deserves a beautiful reading room.
+          </p>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Blog tools">
+        <label class="search-box">
+          <span>Search notes</span>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search title, tag, or excerpt"
+            autocomplete="off"
+          />
+        </label>
+        <div id="tagFilters" class="tag-filters" aria-label="Filter by tag"></div>
+      </section>
+
+      <section id="view" class="view" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made for Markdown. Ready for GitHub Pages.</p>
+      <a href="#/">Back home</a>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"
+      defer
+    ></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

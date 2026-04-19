@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Start Here",
+    "date": "2026-04-17",
+    "slug": "start-here",
+    "description": "A graceful first note that explains how this Markdown blog is organized.",
+    "tags": ["Publishing", "Markdown"],
+    "cover": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1400&q=82",
+    "file": "posts/start-here.md",
+    "readingTime": "2 min read"
+  },
+  {
+    "title": "Black Hat Rust",
+    "date": "2026-04-17",
+    "slug": "black-hat-rust",
+    "description": "Applied offensive security with the Rust programming language.",
+    "tags": ["Rust", "Security"],
+    "cover": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=82",
+    "file": "posts/black_hat_rust_book.md",
+    "readingTime": "48 min read"
+  },
+  {
+    "title": "Designing a Reading Ritual",
+    "date": "2026-04-12",
+    "slug": "designing-a-reading-ritual",
+    "description": "Small choices that make a personal blog feel warm, intentional, and easy to return to.",
+    "tags": ["Design", "Writing"],
+    "cover": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=82",
+    "file": "posts/designing-a-reading-ritual.md",
+    "readingTime": "3 min read"
+  },
+  {
+    "title": "Notes From a Quiet Launch",
+    "date": "2026-03-28",
+    "slug": "notes-from-a-quiet-launch",
+    "description": "A sample launch note with headings, lists, links, quotes, and code.",
+    "tags": ["Launch", "Journal"],
+    "cover": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+    "file": "posts/notes-from-a-quiet-launch.md",
+    "readingTime": "4 min read"
+  }
+]
