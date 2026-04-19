@@ -97,7 +97,7 @@ function route() {
   document.querySelector(".toolbar").hidden = !isHome;
 
   if (!isArticle) {
-    document.title = "Lumen Notes";
+    document.title = "Prem Writes";
   }
 
   if (routeInfo.page === "post") {
@@ -304,7 +304,7 @@ async function renderPost(slug) {
     }
 
     const markdown = stripDuplicateTitle(stripFrontMatter(await response.text()), post.title);
-    document.title = `${post.title} | Lumen Notes`;
+    document.title = `${post.title} | Prem Writes`;
     view.innerHTML = `
       <article class="article-shell">
         <div class="article-top">
